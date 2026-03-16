@@ -1,11 +1,3 @@
-// Pre-fill admin credentials
-document.addEventListener('DOMContentLoaded', function() {
-    const adminEmail = document.getElementById('adminEmail');
-    const adminPassword = document.getElementById('adminPassword');
-    if (adminEmail) adminEmail.value = 'tiyiselaniqueentonrabopape@gmail.com';
-    if (adminPassword) adminPassword.value = 'Zoro';
-});
-
 function switchRole(role) {
     const userForm = document.getElementById('userLoginForm');
     const adminForm = document.getElementById('adminLoginForm');
